@@ -19,6 +19,10 @@
     background-color: #0a192f;
 }
 
+#projekte {
+    background-color: #0a192f;
+}
+
 .font-custom {
     color: #b7094c;
 }
@@ -29,6 +33,9 @@
     }
     .navbar-menu a.has-text-white:hover {
         color: #0091ad;
+    }
+    .navbar-menu {
+        background-color: #b7094c;
     }
 }
 
