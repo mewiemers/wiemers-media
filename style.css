@@ -50,11 +50,13 @@ h3 {
 .big-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 80px);
+    color: #858c97;
 }
 
 .medium-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 60px);
+    color: #858c97;
 }
 
 .numbered-heading {
@@ -87,6 +89,10 @@ h3 {
     cursor: pointer;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
     margin-top: 50px;
+}
+
+.email-button:hover {
+    color: #b7094c;
 }
 
 .respImg {
