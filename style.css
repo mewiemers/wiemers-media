@@ -81,8 +81,12 @@ h3 {
     white-space: nowrap;
 }
 
+.custom-font-family {
+    font-family: "Anonymous Pro", sans-serif;
+}
+
 .spech1 {
-    color: #0091ad;
+    color: #b7094c;
 }
 
 .specmargin {
