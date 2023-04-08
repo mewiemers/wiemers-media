@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="S7Kdv4j_zctY_zXps4qtWkWp9iwDN7jT1pds-r9kx2I" />
     <title>Wiemers Media</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="fa-all.min.css">
+
+
 
 
 </head>
@@ -29,7 +31,7 @@
                     </a>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu m-2">
+                <div id="navbarBasicExample" class="navbar-menu ">
                     <div class="navbar-start">
                         <a class="navbar-item has-text-white is-size-5-desktop" href="#home"> Home </a>
 
@@ -47,7 +49,8 @@
                         <div class="navbar-brand">
                             <a href="https://mweb.dev">
                                 <img src="img/Logo-weiß.png" alt="logo Laptop mit rakete" width="112" height="28">
-                            </a><span class="navbar-item has-text-white is-size-3-desktop custom-font-family has-text-weight-bold ">MWEB</span><span class="navbar-item has-text-white is-size-6-desktop custom-font-family ">Webentwicklung & Design</span>
+                            </a><span class="navbar-item has-text-white is-size-1-desktop custom-font-family has-text-weight-bold ">MWEB</span><span class="navbar-item has-text-white is-size-3-desktop custom-font-family ">Webentwicklung
+                                & Design</span>
 
                         </div>
                     </div>
@@ -57,22 +60,38 @@
 
 
 
-                <div class=" is-flex is-justify-content-space-between is-align-items-flex-end is-mobile">
-                    <div>
+                <div>
+                    <div class="header-area">
                         <h1 class="spech1" id="home">
                             Hi, ich bin
                         </h1>
-                        <h2 class="big-heading">Melanie.</h2><br/>
-                        <h3 class="spech1">Ich erschaffe digitale Präsenzen. Vielleicht auch deine? </h3>
-                        <p class="has-text-white">Als Webentwicklerin verfüge ich über Erfahrung und Kenntnisse in der Entwicklung von Websites und Webanwendungen. Ich bin spezialisiert auf die Verwendung von HTML, CSS und JavaScript um Websites zu erstellen, die funktional, ansprechend
-                            und benutzerfreundlich sind. Ich arbeite eng mit Kunden zusammen, um ihre Bedürfnisse zu verstehen und ihre Ziele zu erreichen, indem ich maßgeschneiderte Lösungen entwerfe und umsetze. <br/> Ich bin auch erfahren im Umgang
-                            mit Content-Management-Systemen wie WordPress, Shopware 6 oder Webflow, um Websites schnell und effizient zu erstellen. Mit einer Leidenschaft für kreatives Denken und Problemlösung arbeite ich kontinuierlich an der Verbesserung
-                            meiner Fähigkeiten und dem Verständnis der neuesten Trends und Technologien im Bereich der Webentwicklung.</p>
+                        <h2 class="big-heading">Melanie.</h2><br />
+                        <img src="img/profile-img-2.jpg" class="hero-image" alt="Melanie Wiemers">
+                        <hr>
+                        <h3 class="spech2">Ich erschaffe digitale Präsenzen. Vielleicht auch Ihre? </h3>
+                        <hr>
+                        <div>
+                            <p class="has-text-white parag">Planen Sie, eine neue Website zu erstellen oder Ihre bestehende Website zu überarbeiten? Dann sind Sie bei mir als erfahrene Webdesignerin und Webentwicklerin genau richtig! ich bin darauf spezialisiert, visuell beeindruckende
+                                und benutzerfreundliche Website-Designs zu erstellen, die auf die einzigartige Identität Ihrer Marke abgestimmt sind. Ich arbeite eng mit Ihnen zusammen, um Ihre Anforderungen zu verstehen und ein Design zu entwerfen, das
+                                nicht nur gut aussieht, sondern auch Ihre Zielgruppe anspricht und anspricht.
+                                <p class="has-text-white parag">Wiederum sorge ich dafür, dass Ihre Website nicht nur schön aussieht, sondern auch funktionell und effizient ist. Ich verwende die neuesten Codingstandards und Technologien, um eine robuste Website zu erstellen, die für
+                                    Geschwindigkeit, Sicherheit und Suchmaschinen-Ranking optimiert ist. Von einfachen Landingpages bis hin zu komplexen E-Commerce-Websites - ich erschaffe für Sie Websites, die Ihren speziellen Anforderungen entspricht.
+                                    Ich bin bestrebt, qualitativ hochwertige Ergebnisse zu liefern, die Ihre Erwartungen übertreffen und Ihr Unternehmen wachsen lassen.
+                                </p>
+                        </div>
+                        <hr>
+                        <div class=" parag-cta">Warum also warten? <br />Kontaktieren Sie mich, um mehr über meine Webdesign- und Webentwicklungsdienste zu erfahren. <br /> Machen Sie den ersten Schritt zu einer erfolgreichen Online-Präsenz!
+                        </div>
+
+
+
+                        <hr>
+                        <div> <a href="mailto:melanie@mweb.dev" class="email-button spech1" rel="noopener noreferrer" target="_blank">Termin vereinbaren</a></div>
 
 
 
                     </div>
-                    <div><img src="img/Bild-me-aboutme.png" alt="Melanie Wiemers"></div>
+
                 </div>
 
 
@@ -86,7 +105,7 @@
         <div class="container">
             <div class="has-text-centered specmargin">
                 <h2 class="title is-2 has-text-white">Das kann ich für dich tun:</h2>
-                <h6 class="subtitle is-6 medium-heading">
+                <h6 class=" is-6 medium-heading">
                     Du brauchst eine neue Website oder ein Redesign? Dann lass uns gemeinsam schauen, wie wir dein Projekt umsetzen können.
                 </h6>
             </div>
@@ -96,8 +115,8 @@
                         <div class="card-content">
                             <div class="has-text-centered">
                                 <span class="icon is-size-1 py-6 my-3">
-                    <i class="fas fa-code"></i>
-                  </span>
+                                    <img src="img/code-solid.svg"></img>
+                                </span>
                             </div>
                             <p class="title is-4">Web Entwicklung</p>
                             <div class="content">
@@ -113,8 +132,8 @@
                         <div class="card-content">
                             <div class="has-text-centered">
                                 <span class="icon is-size-1 py-6 my-3">
-                    <i class="fas fa-paint-brush"></i>
-                  </span>
+                                    <img src="img/paintbrush.svg" alt="pinsel für webdesign">
+                                </span>
                             </div>
                             <p class="title is-4">Web Design</p>
                             <div class="content">
@@ -130,8 +149,8 @@
                         <div class="card-content">
                             <div class="has-text-centered">
                                 <span class="icon is-size-1 py-6 my-3">
-                <i class="fas fa-user-graduate"></i>
-              </span>
+                                    <img src="img/user-graduate.svg" alt="Schulung">
+                                </span>
                             </div>
                             <p class="title is-4">Anwenderschulung</p>
                             <div class="content">
@@ -170,7 +189,7 @@
                             </figure>
                             <p class="title">Freshworks </p>
                             <p class="subtitle">Personalabteilung für den Mittelstand</p>
-                            <p class="content">Übernahme von Personalmanagement<br/>
+                            <p class="content">Übernahme von Personalmanagement<br />
                                 <a target="_blank" href="https://freshworks.biz/">Zum Projekt</a>
                             </p>
                         </article>
@@ -182,7 +201,7 @@
                             </figure>
                             <p class="title">Kinderschutzbund Ortsverband Detmold</p>
                             <div class="content">
-                                <p>Seite des Kinderschutzbund vom Orstverband Detmold<br/> <a target="_blank" href="https://dksb-detmold.de/">Zum Projekt</a></p>
+                                <p>Seite des Kinderschutzbund vom Orstverband Detmold<br /> <a target="_blank" href="https://dksb-detmold.de/">Zum Projekt</a></p>
                             </div>
                         </article>
                     </div>
@@ -197,7 +216,7 @@
                                         <img src="img/mockup_einteilvomganzen.png">
                                     </figure>
                                     <p class="title">Ein Teil vom Ganzen all inklusiv e.V.</p>
-                                    <p class="content">Inklusionsverein <br/> <a target="_blank" href="https://einteilvomganzen.de/">Zum Projekt</a></p>
+                                    <p class="content">Inklusionsverein <br /> <a target="_blank" href="https://einteilvomganzen.de/">Zum Projekt</a></p>
                                 </article>
                             </div>
                             <div class="tile is-parent">
@@ -206,7 +225,7 @@
                                         <img src="img/mockup-neptunshop.png">
                                     </figure>
                                     <p class="title">Neptun Yachten Ersatzteile Shop</p>
-                                    <p class="content">Ersatzteile Shop für Neptun Segelyachten <br/><a target="_blank" href="https://neptun-yachten.shop">Zum Projekt</a></p>
+                                    <p class="content">Ersatzteile Shop für Neptun Segelyachten <br /><a target="_blank" href="https://neptun-yachten.shop">Zum Projekt</a></p>
                                 </article>
                             </div>
                         </div>
@@ -217,7 +236,7 @@
                                 <img src="img/mockup-neptunyachten.png">
                             </figure>
                             <p class="title">Neptun Yachten</p>
-                            <p class="content">Redesign/Relaunch Neptun Yachten Traditionswerft aus Rheda-Wiedenbrück Verkauf von Gebrauchtbooten der Neptun Modelle sowie Neubau oder Refit <br/><a target="_blank" href="https://neptun-yachten.de">Zum Projekt</a></p>
+                            <p class="content">Redesign/Relaunch Neptun Yachten Traditionswerft aus Rheda-Wiedenbrück Verkauf von Gebrauchtbooten der Neptun Modelle sowie Neubau oder Refit <br /><a target="_blank" href="https://neptun-yachten.de">Zum Projekt</a></p>
                         </article>
                     </div>
                 </div>
@@ -226,7 +245,7 @@
     </section>
 
     <section>
-        <h2 class="title is-2 pt-5 font-custom has-text-centered">Mit diesen Technologien arbeite ich:</h2>
+        <h2 class="title is-2 pt-5 font-custom has-text-centered">Mit diesen Technologien arbeite ich bevorzugt:</h2>
 
         <div class=" column is-flex is-justify-content-space-around">
             <div><img class="respImg" src="img/html.png"></div>
