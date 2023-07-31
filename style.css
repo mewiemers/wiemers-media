@@ -124,16 +124,18 @@ h3 {
 }
 
 .email-button {
+  width: 20vw;
   color: #0091ad;
   background-color: transparent;
-  border: 1px solid #b7094c;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  text-align: center;
 }
 
 .email-button:hover {
@@ -143,7 +145,8 @@ h3 {
 /*Images*/
 
 .respImg {
-  max-height: 4rem;
+  max-height: 2rem;
+  margin-right: 0.7em;
 }
 
 .hero-image {
