@@ -156,6 +156,18 @@ h3 {
   display: grid;
 }
 
+.iconimg {
+  z-index: 999;
+  margin-left: 12em;
+  margin-top: -9px;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  background-color: #b7094c;
+}
+
 /*Others*/
 
 .parag {
