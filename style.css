@@ -7,7 +7,7 @@
 }
 
 .navbar.is-custom {
-  background-color: #b7094c;
+  background-color: #0091ad;
 }
 
 .navbar-menu {
@@ -151,6 +151,11 @@ h3 {
 .respImg {
   max-height: 2rem;
   margin-right: 0.7em;
+}
+
+.respIcon {
+  margin-top: 0.2em;
+  margin-right: 2em;
 }
 
 .hero-image {
