@@ -54,9 +54,10 @@
 
 #particles-js {
   position: absolute;
-  top: 100vh;
   width: 100%;
   height: 100%;
+  top: -11em;
+
   background-color: #0a192f;
 }
 
@@ -105,6 +106,7 @@ h3 {
   font-family: "Dancing Script";
   font-size: 3rem;
   font-weight: bold;
+  margin-top: 1em;
 }
 
 .spech1 {
@@ -230,6 +232,97 @@ h3 {
   color: white;
 }
 
+.glsbtn {
+  position: relative;
+  display: inline-block;
+  border: none;
+  padding: 20px 60px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.glsbtn a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  color: #666;
+  z-index: 1;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-decoration: none;
+  overflow: hidden;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(15px);
+}
+
+.glsbtn:hover a {
+  letter-spacing: 3px;
+}
+
+.glsbtn a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+  transform: skewX(40deg) translateX(0);
+  transition: all 0.5s ease-out;
+}
+
+.glsbtn:hover a::before {
+  transform: skewX(40deg) translateX(200%);
+}
+
+.glsbtn::before,
+.glsbtn::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 10px;
+  border-radius: 10px;
+  background: #0091ad;
+  transition: all 0.4s ease-in-out;
+  transition-delay: 0s;
+}
+
+.glsbtn::before {
+  bottom: -5px;
+}
+
+.glsbtn::after {
+  top: -5px;
+}
+
+.glsbtn:hover::before,
+.glsbtn:hover::after {
+  height: 50%;
+  width: 80%;
+  border-radius: 30px;
+  transition-delay: 0.3s;
+}
+
+.glsbtn:hover::before {
+  bottom: 0;
+}
+
+.glsbtn:hover::after {
+  top: 0;
+}
+
 .post-wrapper {
   background-color: white;
   transition: all 0.3s ease-in-out;
@@ -264,6 +357,7 @@ a.post-teaser {
 
 .sectioncon {
   background-color: #b7094c;
+  padding-left: 18em;
 }
 
 .footerdiv {
