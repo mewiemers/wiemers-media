@@ -74,12 +74,13 @@ h3 {
 .big-heading {
   margin: 0;
   font-size: clamp(40px, 8vw, 80px);
-  color: #858c97;
+  color: #fff;
+  font-family: "Dancing Script";
 }
 
 .medium-heading {
   margin: 0;
-  font-size: clamp(10px, 2vw, 15px);
+  font-size: clamp(20px, 4vw, 40px);
   color: #e3e3e3;
 }
 
@@ -94,8 +95,9 @@ h3 {
 }
 
 .header-area {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3em;
 }
 
 .custom-font-family {
@@ -175,7 +177,6 @@ h3 {
 .parag {
   line-height: 1.9;
   font-size: 1.1rem;
-  margin-left: 1.5em;
 }
 
 .parag-cta {
@@ -237,7 +238,7 @@ h3 {
   display: inline-block;
   border: none;
   padding: 20px 60px;
-  margin: 20px;
+  margin: 5em;
   border-radius: 10px;
 }
 
@@ -357,7 +358,8 @@ a.post-teaser {
 
 .sectioncon {
   background-color: #b7094c;
-  padding-left: 18em;
+  padding-left: 17em;
+  padding-right: 15em;
 }
 
 .footerdiv {
