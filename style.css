@@ -37,21 +37,6 @@
   color: #b7094c !important;
 }
 
-@media screen and (max-width: 1023px) {
-  .navbar-menu a.has-text-white {
-    color: #4a4a4a;
-  }
-  .navbar-menu a.has-text-white:hover {
-    color: #0091ad;
-  }
-  .navbar-menu {
-    background-color: #b7094c;
-  }
-  .navbar-menu.is-active {
-    background-color: #b7094c;
-  }
-}
-
 #particles-js {
   position: absolute;
   width: 100%;
@@ -365,10 +350,49 @@ a.post-teaser {
   background-color: #b7094c;
   padding-left: 17em;
   padding-right: 15em;
+  padding-top: 15em;
 }
-
+.sectioncon-footer {
+  background-color: #b7094c;
+}
 .footerdiv {
   background-color: #0a192f;
   width: auto;
   height: 100px;
+}
+
+@media (max-width: 500px) {
+  #particles-js {
+    display: hidden;
+  }
+  .navbar-menu.navbar-menu.is-active {
+    background-color: #0091ad;
+  }
+  .sectioncon {
+    padding: 1em;
+    background-image: url(img/profile-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+  }
+  .sectioncon-footer {
+    padding: 1em;
+  }
+  .picdesktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .navbar-menu a.has-text-white {
+    color: #4a4a4a;
+  }
+  .navbar-menu a.has-text-white:hover {
+    color: #0091ad;
+  }
+  .navbar-menu {
+    background-color: #b7094c;
+  }
+  .navbar-menu.is-active {
+    background-color: #b7094c;
+  }
 }
